@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio web</title>
+    <link rel="stylesheet" href="pro.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <!-- <img src="img\logo.jpeg" alt="" class="logo"> -->
+
+            <a class="logo"> <span>p</span>or<span>t</span>fo.</a>
+
+            <ul id="sidemenu">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="bi bi-x" onclick="closemenu()"></i>
+            </ul>
+              <i class="bi bi-list" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UX/UI Designer</p>
+            <h1>Hi, I'm <span>Web</span><br> Designer From INDIA </h1>
+        </div>
+    </div>
+   </div>
+<!--------------------------------about--------------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img\a.jpg" alt="">
+                    </div>                    
+                    <div class="about-col-2">
+                        <h1 class="sub-title">Ab<span>out</span> M<span>e</span></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Rerum debitis ab laudantium quaerat neque nam reiciendis voluptate doloribus quasi.
+                              Facere ut porro totam quidem sint ratione aliquam quaerat, harum odio.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repudiandae amet, 
+                            laudantium harum alias hic!</p>
+
+
+                            <div class="tab-title">
+                                <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                                    <li><span>Web Development</span><br>Web app Development</li>
+                                    <li><span>App Development</span><br>Building Anroid/ios apps</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="Experience">
+                                <ul>
+                                    <li><span>2021-current</span><br>UI/UX design Training</li>
+                                    <li><span>2019-2021</span><br>team lead at starApp LLC</li>
+                                    <li><span>2017-2019</span><br>UI/UX design Executive at coin digital Ltd</li>
+                                    <li><span>2016-2017</span><br>Internship at ekart eCommerce</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>2021</span><br>UI/UX design Training</li>
+                                    <li><span>2020</span><br>btech from tsec</li>
+                                    <li><span>2019</span><br>btech from tsec</li>
+                                   
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------------------services------------------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title"><span>M</span>y ser<span>vi</span>ces</h1>
+        <div class="services-list">
+            <div>
+                <i class="bi bi-code-slash"></i>
+                <h2>Web design</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate laudantium
+                     commodi vero quibusdam consequaturqui quia quo saepe voluptatibus praesentium,
+                     consectetur doloremque expedita.</p>
+                     <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="bi bi-crop"></i>
+                <h2>UI/UX design</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate laudantium
+                     commodi vero quibusdam consequaturqui quia quo saepe voluptatibus praesentium,
+                     consectetur doloremque expedita.</p>
+                     <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="bi bi-app"></i>
+                <h2>App design</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate laudantium
+                     commodi vero quibusdam consequaturqui quia quo saepe voluptatibus praesentium,
+                     consectetur doloremque expedita.</p>
+                     <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+
+<!---------------------------portfolio---------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> <span>M</span>y W<span>or</span>k</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img\sm.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit.  Unde voluptates,
+                     reprehenderit mollitia natus corrupti.</p>  
+                     <a href="#"><i class="bi bi-link"></i></a>
+                </div>
+            </div>
+            <!-- <div class="work-list"> -->
+                <div class="work">
+                    <img src="img\m.jpg" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                       <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit. Unde voluptates,
+                         reprehenderit mollitia natus corrupti .</p>  
+                         <a href="#"><i class="bi bi-link"></i></a>
+                    </div>
+                </div>
+              <!-- <div class="work-list"> -->
+                 <div class="work">
+                        <img src="img\os.jpg" alt="">
+                        <div class="layer">
+                            <h3>Online shopping App</h3>
+                           <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit. Unde voluptates,
+                             reprehenderit mollitia natus corrupti.</p>  
+                             <a href="#"><i class="bi bi-link"></i></a>
+                        </div>
+                 </div>
+         </div>
+        <a class="btn"> See more </a>
+    </div>
+</div>
+
+<!-- -----------------------Contact----------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Con<span>tact</span> Me</h1>
+                <p><i class="bi bi-send"></i>contact@gmail.com</p>
+                <p><i class="bi bi-phone"></i>23464646749</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <a class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" cols="0" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                    <button type="reset" class="btn btn2">Reset</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+           var tabcontents = document.getElementsByClassName("tab-contents");
+
+           function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");     
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+</body>
+</html>
